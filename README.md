@@ -34,6 +34,10 @@ Arduino Temperature Monitoring System: A project that captures temperature data 
 
 ## Usage
 
-- **Python Script:** Run the script to send data from Arduino to Google Sheets.
+- **Python Script:** Run script to send data from Arduino to Google Sheets.
 - **Wix Velo:** The code in Wix Velo will automatically update and show the latest temperature on the site.
+
+## Notes
+
+- Assumptions: you have a wix site published, you have a working google sheet, keep Arduino connected to computer while program is running
 
