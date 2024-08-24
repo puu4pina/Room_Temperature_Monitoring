@@ -39,6 +39,6 @@ Arduino Temperature Monitoring System: A project that captures temperature data 
 
 ## Notes
 
-- Assumptions: you have a wix site published, you have a working google sheet, keep Arduino connected to computer while program is running
+- Assumptions: using an Arduino Uno Rev 3, you have a wix site published, you have a working google sheet, keep Arduino connected to computer while program is running
 - Parts of code are written using generative AI
 
