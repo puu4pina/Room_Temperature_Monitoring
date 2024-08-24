@@ -1,0 +1,13 @@
+void setup() {
+  Serial.begin(9600);
+}
+
+void loop() {
+  int aValue = analogRead(A0); // Read analog value from pin A0
+  int tempC = (int)(aValue * (5.0 / 1024.0) * 100.0); // Analog into temperature in celsius as integer
+
+  Serial.print(tempC);
+  Serial.println(" ");
+
+  delay(60000); // Wait 60 seconds before next reading
+}
