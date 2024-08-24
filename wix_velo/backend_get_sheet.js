@@ -17,3 +17,4 @@ export function getTemperature() {
       throw new Error('Failed to get temperature');
     });
 }
+
