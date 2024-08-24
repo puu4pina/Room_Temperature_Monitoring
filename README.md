@@ -4,7 +4,7 @@ Arduino Temperature Monitoring System: A project that captures temperature data 
 
 ## Structure
 
-- **Arduino:** Code for reading temperature data (`/arduino/sketch_room_temperature.ino`).
+- **Arduino:** Code for reading temperature data (`/arduino/sketch.ino`).
 - **Python:** Script to send data to Google Sheets (`/python/send_serial.py`).
 - **Google Apps Script:** Writes data to Google Sheets (`/apps-script/code.gs`).
 - **Wix Velo:** Fetches and shows temperature data (`/wix-velo/display-temperature.js`).
@@ -12,7 +12,7 @@ Arduino Temperature Monitoring System: A project that captures temperature data 
 ## Setup
 
 1. **Arduino:**
-   - Upload Arduino sketch from `/arduino/temperature_sensor.ino` into Arduino board.
+   - Upload Arduino sketch from `/arduino/sketch.ino` into Arduino board.
    - Connect temperature sensor into Arduino.
 
 2. **Python Script:**
