@@ -40,5 +40,6 @@ Arduino Temperature Monitoring System: A project that captures temperature data 
 ## Notes
 
 - Assumptions: using an Arduino Uno Rev 3, you have a wix site published, you have a working google sheet, keep Arduino connected to computer while program is running
+- Hardware: Arduino UNO Rev 3, Texas Instruments LM35 temperature sensor, Macbook Air
 - Parts of code are written using generative AI
 
