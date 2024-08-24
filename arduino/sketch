@@ -9,5 +9,5 @@ void loop() {
   Serial.print(tempC);
   Serial.println(" ");
 
-  delay(60000); // Wait 60 seconds before next reading
+  delay(60000); // Wait 60 seconds
 }
